@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family= Poppins :wght@500 & display=swap'); 
+
+body{
+    padding: 5px;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #6b0000;
+}
+
+ul{
+    margin: 0 auto;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+ul li:hover{
+    transition: 0.3s all;
+    transform: scale(1.05);
+    font-weight: 520;
+}
+
+.banner{
+    margin-top: 15px;
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: #8B0000;
+}
+
+.cardapio{
+    width: 420px;
+    border-radius: 30px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
